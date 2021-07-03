@@ -22,10 +22,10 @@ Fuente de la página
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
   text-align: center;
-  background-color: hsl(0, 0%, 93%);
   font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 93%);
 }
 
 .main-title {
@@ -37,7 +37,6 @@ body {
   width: 30%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
 
 .cards {
@@ -57,7 +56,6 @@ body {
   box-shadow: 5px 10px 10px hsl(240 25% 50% / 0.2);
   background-color: hsl(0, 0%, 93%);
 }
-
 .card__title,
 .card__text {
   text-align: left;
@@ -67,23 +65,6 @@ body {
   position: absolute;
   right: 2em;
   bottom: 2em;
-}
-
-.card--left {
-  top: 150px;
-  left: 0;
-}
-.card--top {
-  top: 0;
-  left: 425px;
-}
-.card--bottom {
-  bottom: 0;
-  left: 425px;
-}
-.card--right {
-  top: 150px;
-  right: 0;
 }
 
 .card--cyan {
@@ -102,14 +83,40 @@ body {
   border-top: 5px solid hsl(212, 86%, 64%);
 }
 
+.card--left,
+.card--right {
+  top: 150px;
+}
+
+.card--top,
+.card--bottom {
+  left: 425px;
+}
+
+.card--left {
+  left: 0;
+}
+
+.card--top {
+  top: 0;
+}
+
+.card--right {
+  right: 0;
+}
+
+.card--bottom {
+  bottom: 0;
+}
+
 .text-light {
   color: hsl(229, 6%, 66%);
 }
 
-.text-bold {
-  font-weight: 600;
-}
-
 .text-thin {
   font-weight: 200;
+}
+
+.text-bold {
+  font-weight: 600;
 }
